@@ -1,0 +1,46 @@
+body{
+    background-color: #098992;
+    margin-top: 30px;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+    
+}
+
+fieldset{
+    
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    color: #f3f5ff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    
+}
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"]{
+    width: 100%;
+    border-radius: 5px;
+    border: transparent;
+    padding: 8px;
+}
+button{
+    border: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f3f5ff;
+    color: #04494e;
+}
+
+button:hover{
+    background-color: #d4f2f4;
+}
